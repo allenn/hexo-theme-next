@@ -3,10 +3,11 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /assets/images/blog-img/favicon.png
 
+avatar: /assets/images/blog-img/avatar.jpg
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Allen, Blogs, Coder, Java"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -45,12 +46,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
-  archives: /archives/
-  tags: /tags/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  #categories: /categories
+  #about: /about
+  archives: /archives
+  tags: /tags
+  #schedule: /schedule
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -78,9 +79,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -152,10 +153,10 @@ font:
 social_icons:
   enable: true
   # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+  GitHub: https://github.com/allenn
+  Twitter: https://twitter.com/xudongzheng1225
+  Weibo: http://weibo.com/allenzheng1225
 
 
 # Sidebar Avatar
@@ -304,15 +305,15 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 2ef044f665c8137864db5a2f0321c0f1
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: alleeen
   count: true
 
 # Hypercomments
@@ -345,14 +346,14 @@ changyan:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: SWFq03qXVniuU8xSmbU_-cfB6k7ySTaMohC_RBDdAvI
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-36907890-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -370,8 +371,9 @@ changyan:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
+  admin_enable: true
+  user_id:
+#  user_id: alleeen
   #admin_nickname: Author
 
 
@@ -444,7 +446,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
