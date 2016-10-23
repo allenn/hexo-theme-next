@@ -5,7 +5,6 @@
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /assets/images/blog-img/favicon.png
 
-avatar: /assets/images/blog-img/avatar.jpg
 # Set default keywords (Use a comma to separate)
 keywords: "Allen, Blogs, Coder, Java"
 
@@ -15,7 +14,7 @@ keywords: "Allen, Blogs, Coder, Java"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2013
 
 # icon between year and author @Footer
 authoricon: heart
@@ -141,8 +140,11 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/allenn
+  Twitter: https://twitter.com/xudongzheng1225
+  微博: http://weibo.com/allenzheng1225
 
 
 # Social Links Icons
@@ -154,15 +156,15 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/allenn
-  Twitter: https://twitter.com/xudongzheng1225
-  Weibo: http://weibo.com/allenzheng1225
+  GitHub: github
+  Twitter: twitter
+  微博: weibo
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /assets/images/blog-img/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -210,13 +212,12 @@ sidebar:
   # Enable sidebar on narrow view
   onmobile: false
 
-
-# Blog rolls
-#links_title: Links
+# Blogrolls
+links_title: Links
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  并发编程网: http://ifeve.com/
 
 
 # ---------------------------------------------------------------
@@ -308,7 +309,7 @@ han: false
 baidu_analytics: 2ef044f665c8137864db5a2f0321c0f1
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: alleeen
 
 # Disqus
 disqus:
@@ -372,9 +373,8 @@ google_analytics: UA-36907890-1
 duoshuo_info:
   ua_enable: true
   admin_enable: true
-  user_id:
-#  user_id: alleeen
-  #admin_nickname: Author
+#  user_id: 604590
+  admin_nickname: 博主
 
 
 # Facebook SDK Support.
