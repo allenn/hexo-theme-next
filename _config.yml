@@ -32,11 +32,15 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
 index_with_subtitle: false
+# Donate 文章末尾显示打赏按钮
+reward_comment: 生活不止眼前的苟且,还有那片海
+wechatpay: /assets/images/weixin.png
+alipay: /assets/images/alipay.png
 
 # ---------------------------------------------------------------
 # Menu Settings
