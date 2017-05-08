@@ -342,8 +342,8 @@ youyan_uid:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare:
+  type: button
 
 # Share
 #jiathis:
@@ -351,7 +351,11 @@ youyan_uid:
 #add_this_id:
 
 # Share
+<<<<<<< HEAD
 duoshuo_share: false
+=======
+# duoshuo_share: true
+>>>>>>> 评论系统更换回 disqus
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
