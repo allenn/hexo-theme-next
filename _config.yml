@@ -330,6 +330,9 @@ changyan:
   appid:
   appkey:
 
+# Gentie productKey
+gentie_productKey: 
+
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
 youyan_uid:
@@ -378,11 +381,19 @@ google_analytics: UA-36907890-1
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
+<<<<<<< HEAD
 duoshuo_info:
   ua_enable: true
   admin_enable: true
 #  user_id: 604590
   admin_nickname: 博主
+=======
+# duoshuo_info:
+#  ua_enable: true
+#  admin_enable: true
+#  user_id: 604590
+#  admin_nickname: 博主
+>>>>>>> 变更为网易云跟贴
 
 
 # Facebook SDK Support.
